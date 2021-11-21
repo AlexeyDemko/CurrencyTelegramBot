@@ -163,7 +163,7 @@ def stop(update, context):
 
 
 def main():
-    updater = Updater("2053287115:AAHPYCT5DzgPPesUcr-7xWKZh4RNLYJupd4")
+    updater = Updater("Token")
     dispatcher = updater.dispatcher
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
